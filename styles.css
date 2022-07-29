@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: rgb(245, 245, 245);
+    color: rgb(32, 32, 32);
+    /* background-image: url(background.jpg); */
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+.avatar {
+    width: 300px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 10px;
+}
+
+.avatar:hover {
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+}
+
+.forms {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    width: 220px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 10px;  
+}
+
+.forms:hover {
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+}
+
+.top_text {
+    margin-left: 20px;
+}
+
+.top_text h1 {
+    margin-bottom: 20px;
+}
+
+.top {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.top p {
+    color: gray;
+    margin: 0px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.titles {
+    width: 48%;
+    background-color: rgba(169, 192, 201, 0.753);
+    border: 3px solid;
+    border-radius: 15px;
+    border-color: rgba(63, 63, 63, 0.253);
+    padding: 20px 10px 20px 30px;
+    margin: 30px 5px 30px 5px;
+    box-sizing: border-box;
+    float: left;
+}
+
+a {
+    opacity: 0.7;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+.ins_logo:hover {
+    transform: rotate(360deg);
+    transition: all 1s ease-in-out;
+}
+
+.twi_logo:hover {
+    transform: rotate(360deg);
+    transition: all 1s ease-in-out;
+}
+
+.vk_logo:hover {
+    transform: rotate(360deg);
+    transition: all 1s ease-in-out;
+}
+
+.social {
+    text-align: center;
+}
+
+.youtube a{
+color: rgb(23, 78, 100);
+}
+
+.diet {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 500px;
+    height: 250px;
+}
+
+.diet p {
+    font-style: italic;
+}
+
+.diet th {
+    text-align: left;
+}
+
+.diet td:nth-child(2),
+.diet td:nth-child(3) {
+    color: rgb(122, 122, 122);
+    font-style: italic;
+}
+
+.all_diet {
+    position: relative;
+    background-color: rgba(169, 192, 201, 0.753);
+    border: 3px solid;
+    border-color: rgba(63, 63, 63, 0.253);
+    border-radius: 15px;
+    margin: 30px 0px;
+    box-sizing: border-box;
+    width: 800px;
+    height: 400px;
+}
+
+.contact h3 {
+    text-align: center;
+}
+
+.contact {
+    background-color: rgba(169, 192, 201, 0.753);
+    overflow: hidden;
+    border: 3px solid;
+    border-color: rgba(63, 63, 63, 0.253);
+    border-radius: 15px;
+    margin: 30px 0px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.contact_el label {
+    display: block;
+    font-size: 14px;
+    color: rgb(78, 78, 78);
+}
+
+.contact_el input,
+.contact_el textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(35, 70, 83, 0.753);
+    outline: none;
+    padding: 10px 0px 10px;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .contact_el {
+    width: 50%;
+    margin-right: 25px;
+}
+
+.row > .contact_el:last-child {
+    margin-right: 0;
+}
+
+.checkbox {
+position: absolute;
+bottom: 30px;
+display: flex;
+}
+
+.button {
+    background-color: rgba(35, 70, 83, 0.753);
+    padding: 13px 28px;
+    color: white;
+    font-family: inherit;
+    cursor: pointer;
+    margin-left: 300px;
+    margin-top: 12px;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
